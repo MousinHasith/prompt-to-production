@@ -3,6 +3,8 @@ import csv
 import json
 import logging
 
+# Implements RICE enforcements defined in agents.md
+
 # Ensure logs are formatted cleanly if we chose to output them
 logging.basicConfig(level=logging.ERROR, format='%(levelname)s: %(message)s')
 
